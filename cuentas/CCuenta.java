@@ -23,7 +23,7 @@ public class CCuenta {
      /**
       * Tipo de interes de la cuenta.
       */
-    private double tipoInterés;
+    private double tipoInteres;
 
      /**
       * Constructor sin parametros.
@@ -46,7 +46,7 @@ public class CCuenta {
         nombre = nom;
         cuenta = cue;
         saldo = sal;
-        tipoInterés = tipo;
+        tipoInteres = tipo;
     }
 
     /**
@@ -108,17 +108,17 @@ public class CCuenta {
      *
      * @return tipo de interes de la cuenta
      */
-    public double getTipoInterés() {
-        return tipoInterés;
+    public double getTipoInteres() {
+        return tipoInteres;
     }
 
     /**
      * Modifica el tipo de interes.
      *
-     * @param tipoInterés nuevo tipo de interes
+     * @param tipoInteres nuevo tipo de interes
      */
-    public void setTipoInterés(double tipoInterés) {
-        this.tipoInterés = tipoInterés;
+    public void setTipoInteres(double tipoInteres) {
+        this.tipoInteres = tipoInteres;
     }
 
     /**
